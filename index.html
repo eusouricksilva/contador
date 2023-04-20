@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="carregar()" >
+
+    <header>
+        <h1>Vamos Contar</h1>
+    </header>
+
+    <section>
+        <div id="dados">
+                <p>Início: <input type="number" name="inicio" id="inicio"></p>
+                <p>Fim: <input type="number" name="fim" id="fim"></p>
+                <p>Passo: <input type="passo" name="n1" id="passo"></p>
+            <p>
+                <input type="button" value="Contar" onclick="contar()">
+            </p>
+        </div>
+
+        <div id="res">
+            <p>
+                Preparando a Contagem...
+            </p>
+        </div>
+    </section>
+
+    <footer>
+        <p>
+            &copy; Ríck Sílvá
+        </p>
+    </footer>
+    
+    <script src="contador.js"></script>
+</body>
+</html>
